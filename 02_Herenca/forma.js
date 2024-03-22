@@ -1,7 +1,7 @@
 class Forma{
    
     constructor(){
-        this.tipoDeForma = 'Forma Abstrata'
+        this.tipoDeForma = 'Quadrado'
     }
  
     imprimeForma(){
