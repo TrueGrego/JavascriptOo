@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herença</title>
+    <title>Reutilização de Códigos</title>
 </head>
 
 <body>
@@ -12,8 +12,10 @@
 
     <script src="forma.js"></script>
     <script src="quadrado.js"></script>
+    <script src="quadrado-colorido.js"></script>
+
     <script>
-        const forma = new Quadrado(15);
+        const forma = new QuadradoColorido(20,"Azul");
         document.getElementById('btnImprimir').addEventListener('click', function(){
             forma.imprimeForma();
         });
